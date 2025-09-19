@@ -1,6 +1,6 @@
 import random
 player = input ("what's your choice: ")
-choice= ["rock", "paper", "scissors"]
+choice = ["rock", "paper", "scissors"]
 computer = random.choice(choice)
 print("computer chose", computer)
 
@@ -14,5 +14,6 @@ elif player == "schaar" and computer == "papier":
     print("you win")
 else:
     print("computer wins")
+
 
 
