@@ -1,8 +1,8 @@
 import random
-player = input ("wat is je keuze: ")
+player = input ("what's your choice: ")
 choice= ["rock", "paper", "scissors"]
 computer = random.choice(choice)
-print("computer kiest", computer)
+print("computer chose", computer)
 
 if player == computer:
     print("draw")
@@ -14,4 +14,5 @@ elif player == "schaar" and computer == "papier":
     print("you win")
 else:
     print("computer wins")
+
 
